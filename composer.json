@@ -1,0 +1,13 @@
+{
+    "name": "nishant/twlogger",
+    "description": "A utility to log profiling data to elastic index",
+    "autoload": {
+        "psr-0": {
+            "TwLogger_": "src/"
+        }
+    },
+    "require": {
+        "php": ">=5.4.0",
+        "elasticsearch/elasticsearch": "~2.0"
+    }
+}
